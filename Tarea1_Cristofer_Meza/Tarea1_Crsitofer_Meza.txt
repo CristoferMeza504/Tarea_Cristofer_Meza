@@ -1,0 +1,27 @@
+Para definir un ADT utilizaremos las siguientes funciones 
+
+CrearCadena(): Crea una cadena de caracteres vacía.
+Longitud(cadena): Devuelve la cantidad de caracteres en la cadena.
+Concatenar(cadena1, cadena2): Combina dos cadenas para formar una nueva cadena más larga.
+ObtenerCaracter(cadena, posición): Devuelve el carácter en la posición especificada de la cadena.
+ModificarCaracter(cadena, posición, nuevoCarácter): Cambia el carácter en la posición dada por el nuevo carácter.
+Subcadena(cadena, inicio, longitud): Devuelve una subcadena de la cadena original, comenzando en la posición de inicio y con la longitud especificada.
+Buscar(cadena, subcadena): Busca la primera aparición de una subcadena dentro de la cadena y devuelve su posición.
+Comparar(cadena1, cadena2): Compara dos cadenas para determinar si son iguales o cuál es mayor en orden lexicográfico.
+Insertar(cadena, posición, subcadena): Inserta una subcadena en una posición específica de la cadena.
+Eliminar(cadena, posición, longitud): Elimina una porción de la cadena, comenzando en la posición dada y con la longitud especificada.
+Vaciar(cadena): Elimina todos los caracteres de la cadena, dejándola vacía.
+EsVacia(cadena): Verifica si la cadena no contiene caracteres.
+
+Las funciones para crear un ADT de arrelgo bidimensional de enteros son las siguientes:
+
+CrearArreglo(filas, columnas): Crea un arreglo bidimensional con la cantidad especificada de filas y columnas, inicializando todos los elementos a cero o a un valor específico.
+ObtenerValor(arreglo, fila, columna): Devuelve el valor almacenado en la posición (fila, columna) del arreglo.
+AsignarValor(arreglo, fila, columna, valor): Asigna un valor específico a la posición (fila, columna) del arreglo.
+SumarFilas(arreglo): Devuelve un arreglo unidimensional que contiene la suma de los valores de cada fila.
+SumarColumnas(arreglo): Devuelve un arreglo unidimensional que contiene la suma de los valores de cada columna.
+BuscarValor(arreglo, valor): Busca la primera aparición de un valor en el arreglo y devuelve su posición (fila, columna) o un indicador si no se encuentra.
+ObtenerFila(arreglo, fila): Devuelve la fila completa como un arreglo unidimensional.
+ObtenerColumna(arreglo, columna): Devuelve la columna completa como un arreglo unidimensional.
+
+Y para un uso más eficiente del arreglo se utlizaría una estructura llamada "Matriz dispersa" ya que si usamos una matris normal habrian muchas celdas vacías haciendo un uso defiente del espacio en memoría.
